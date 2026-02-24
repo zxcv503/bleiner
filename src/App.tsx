@@ -1414,7 +1414,7 @@ const About = () => {
   return (
     <section id="about" className="py-24 bg-slate-50">
       <div className="max-w-7xl mx-auto px-6">
-        <div className="max-w-3xl mb-24">
+        <div className="max-w-3xl mx-auto mb-24 text-center">
           <span className="text-slate-400 font-bold uppercase tracking-widest text-xs">{t.about.subtitle}</span>
           <h2 className="text-4xl md:text-5xl mt-4 mb-8">{t.about.title}</h2>
           <p className="text-slate-600 text-lg leading-relaxed mb-12">
