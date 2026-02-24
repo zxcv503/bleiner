@@ -1,0 +1,28 @@
+# Allow all crawlers and AI bots to index this site
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://bleiner-gmbh.at/sitemap.xml
+
+# Explicitly allow AI crawlers
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Anthropic-AI
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Googlebot
+Allow: /
