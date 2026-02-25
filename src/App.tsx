@@ -878,7 +878,7 @@ const Hero = () => {
             <span className="inline-block px-3 py-1 bg-white/10 backdrop-blur-md border border-white/20 text-white text-xs font-bold uppercase tracking-[0.3em] rounded mb-6">
               {slides[currentSlide].subtitle}
             </span>
-            <h2 className="text-5xl md:text-7xl text-white mb-6 leading-[1.1]">
+            <h2 className={`text-white mb-6 leading-[1.1] ${currentSlide === 0 ? 'text-4xl md:text-5xl lg:text-6xl' : 'text-5xl md:text-7xl'}`}>
               {slides[currentSlide].title}
             </h2>
             <p className="text-lg md:text-xl text-white/80 mb-10 font-light max-w-xl">
