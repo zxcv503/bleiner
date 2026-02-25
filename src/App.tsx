@@ -217,7 +217,7 @@ const translations: Record<Language, TranslationSchema> = {
     hero: {
       slides: [
         {
-          title: 'Zuverlässige Schwertransporte in ganz Österreich',
+          title: 'Zuverlässige Schwertransporte in Österreich, Deutschland, Tschechien, Mittel- & Osteuropa',
           subtitle: 'Transport & Logistik',
           description: 'Spezialisierte Logistiklösungen für schwere Maschinen und Industrieanlagen.'
         },
@@ -266,9 +266,9 @@ const translations: Record<Language, TranslationSchema> = {
           iban: 'AT84 3456 0000 0203 3538',
           bic: 'RZOOAT2L560',
         },
-        taxNote: '„Steuerschuld geht lt. § 19 Abs. 1a UStG 1994 auf den Leistungsempfänger über“',
-        paymentTerms: 'Zahlungsbedingungen: 30 Tage netto',
-        regions: 'Österreich, Tschechien, Mittel- & Osteuropa',
+        taxNote: '',
+        paymentTerms: '',
+        regions: 'Österreich, Deutschland, Tschechien, Mittel- & Osteuropa',
       },
       licenses: {
         title: 'Gewerbeberechtigungen',
@@ -437,7 +437,7 @@ const translations: Record<Language, TranslationSchema> = {
     hero: {
       slides: [
         {
-          title: 'Reliable Heavy Transport Across Austria',
+          title: 'Reliable Heavy Transport Across Austria, Germany, Czech Republic, Central & Eastern Europe',
           subtitle: 'Transportation',
           description: 'Specialized logistics solutions for heavy machinery and industrial equipment.'
         },
@@ -486,9 +486,9 @@ const translations: Record<Language, TranslationSchema> = {
           iban: 'AT84 3456 0000 0203 3538',
           bic: 'RZOOAT2L560',
         },
-        taxNote: '“Tax liability transfers to the recipient of the service according to § 19 para. 1a Austrian VAT Act 1994.”',
-        paymentTerms: 'Payment terms: 30 days net',
-        regions: 'Austria, Czech Republic, Central & Eastern Europe',
+        taxNote: '',
+        paymentTerms: '',
+        regions: 'Austria, Germany, Czech Republic, Central & Eastern Europe',
       },
       licenses: {
         title: 'Trade Licenses / Business Activities',
@@ -1170,10 +1170,10 @@ const Projects = () => {
     },
     {
       id: 10,
-      title: { de: 'Großflächige Geländegradierung & Verdichtung', en: 'Large-Scale Terrain Grading & Compaction' },
+      title: { de: 'Spezialtransport – Transformator für Windkraftanlage', en: 'Special Transport – Transformer for Wind Turbine' },
       description: {
-        de: 'Durchführung von Massenerdarbeiten einschließlich Aushub, Präzisionsgradierung und Bodenverdichtung für Infrastruktur- und Straßenbauprojekte. Vorbereitung stabiler Tragschichten für langfristige strukturelle Haltbarkeit.',
-        en: 'Execution of bulk earthworks including excavation, precision grading, and soil compaction for infrastructure and road construction projects. Preparation of stable base layers for long-term structural durability.',
+        de: 'Spezialtransport eines Transformators für eine Windkraftanlage. Fachgerechte Logistik und sicherer Transport von Schwerkomponenten für die Energiewirtschaft.',
+        en: 'Special transport of a transformer for a wind turbine. Professional logistics and safe transport of heavy components for the energy industry.',
       },
       category: 'transportation',
       images: ['/images/bleiner-transport-12.jpg'],
@@ -1439,10 +1439,6 @@ const About = () => {
             </div>
           </div>
 
-          <div className="mt-12 p-6 bg-white rounded-2xl border border-slate-200 shadow-sm max-w-md mx-auto text-center">
-            <p className="text-sm italic text-slate-500 mb-4">{t.about.companyInfo.taxNote}</p>
-            <p className="text-sm font-bold text-slate-900">{t.about.companyInfo.paymentTerms}</p>
-          </div>
         </div>
 
         <div className="pt-24 border-t border-slate-200">
@@ -1565,7 +1561,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <h5 className="font-bold mb-1">{t.contact.address}</h5>
-                  <p className="text-slate-400">Dobratal 33, 3352 St. Peter in der Au, Austria</p>
+                  <p className="text-slate-400">Wolfernstraße 20b, 4400 Steyr, Austria</p>
                 </div>
               </div>
               <div className="flex items-start gap-4">
@@ -1583,7 +1579,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <h5 className="font-bold mb-1">{t.contact.email}</h5>
-                  <p className="text-slate-400">haraldbleiner@gmail.com</p>
+                  <p className="text-slate-400">haraldbleinergmbh@gmail.com</p>
                 </div>
               </div>
             </div>
